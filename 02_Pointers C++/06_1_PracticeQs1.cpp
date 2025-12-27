@@ -1,3 +1,14 @@
+//What will ptr2 point the following code?
+/*
+int x = 5, y = 10
+
+int *ptr1 = &x, *ptr2 = &y;
+ptr2 = ptr1;
+
+*/
+
+
+
 #include <iostream>
 using namespace std;
 
