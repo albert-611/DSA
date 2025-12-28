@@ -1,0 +1,91 @@
+Space & Time Complexity
+
+NOTE:
+In some videos, you will hear words like Space & Time Complexity of Algorithms, Big O, etc.
+The concept of Space & Time Complexity is covered in the later part of the course (as an individual chapter).
+To understand it beforehand, please read this material.
+
+📘 Scenario
+
+Imagine you give your lucky pen to one of your friends.
+Now your exams are approaching, so you would like your pen back.
+
+🧠 Space Complexity
+
+Space Complexity is represented as a function that shows the amount of space necessary for an algorithm to run until completion.
+
+In our scenario, you can think of space complexity as the number of rooms you need to figure out who has the pen.
+
+In computer science, this usually means how much memory the processes and data structures in our code or functions take up to achieve their goal.
+
+⏱️ Time Complexity
+
+Time Complexity is represented as a function that shows the amount of time necessary for an algorithm to run until completion.
+
+In our scenario, time complexity can be represented by the approach you take to find out who has the pen.
+
+In computer science, this typically means how much time the processes and data structures in our code or functions take to achieve their goal.
+
+Time complexity is an umbrella term that includes different types of time complexity.
+From fastest to slowest, they are:
+
+Best Case Time Complexity:
+The minimum number of operations needed to complete the algorithm.
+
+Amortized Time Complexity:
+Similar to average case; it represents the time per operation over a long sequence of operations.
+
+Average Case Time Complexity:
+The average number of operations required to complete the algorithm.
+
+Worst Case Time Complexity:
+The maximum number of operations needed before completion.
+
+📌 NOTE
+
+Read O(n) as “Big O of n.”
+
+📊 Examples of Complexity Functions
+
+O(n²):
+You ask one friend if they have the pen.
+You also ask them whether the other 99 friends have the pen.
+Then you move on to the next friend and repeat the process.
+
+O(n):
+You ask each friend one by one if they have the pen.
+
+O(log n):
+You divide the friends into two rooms and ask which room contains the person with the pen.
+You keep dividing the correct group into two until only one person remains.
+
+O(1):
+You remember who has the pen and go directly to them.
+
+⚠️ Important Point
+
+The Time and Space Complexity of an algorithm is not the actual time or space required to execute the code.
+
+Instead, it represents the number of times a statement executes.
+
+So, complexity is not a measure of real time or memory usage, but a measure of what the code is doing.
+
+🧾 Summary
+
+There can be multiple solutions to the same problem.
+
+We must learn how to compare the performance of different algorithms and choose the best one.
+
+While analyzing an algorithm, we mainly consider:
+
+Time Complexity
+
+Space Complexity
+
+Time complexity refers to the time taken by an algorithm to execute instructions.
+
+Space complexity refers to the amount of memory taken by an algorithm as a function of input size.
+
+Although time and space depend on hardware and system factors, we ignore these while analyzing algorithms.
+
+We focus only on the execution behavior of the algorithm.
