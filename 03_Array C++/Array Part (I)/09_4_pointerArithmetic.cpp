@@ -1,4 +1,4 @@
-//Addition and Subtraction of Constants
+//Comparison (==, <, >, <= , >=)
 
 #include <iostream>
 using namespace std;
