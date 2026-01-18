@@ -7,7 +7,7 @@ int main() {
     char str2[20] = "World";
 
     // strlen
-    cout << "Length of str1: " << strlen(str1) << endl;
+    cout << " Length of str1: " << strlen(str1) << endl;
 
     // strcpy
     strcpy(str2, str1);
