@@ -1,0 +1,11 @@
+MEMORY LEAK
+
+A memory leak occurs when a programmers create a memory in a heap and forget to delete it. 
+Lead to reduce performance due to depletation of available memory.
+
+-> if initialize a dynamic array 
+        int *arr = new int[size];
+-> then use this
+        delete [] arr;
+
+Then our memory won't leak
