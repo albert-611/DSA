@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int LastOccur(vector<int> &arr, int i, int target){
+int LastOccur(const vector<int> &arr, int i, int target){
 
 
 if (i < 0)

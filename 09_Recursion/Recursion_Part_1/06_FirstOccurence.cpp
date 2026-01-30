@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int firstOccur(vector<int> &arr, int i, int target){
+int firstOccur(const vector<int> &arr, int i, int target){
 
 if (i == arr.size())
 {
