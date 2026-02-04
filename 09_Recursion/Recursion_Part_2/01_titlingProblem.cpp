@@ -18,7 +18,7 @@ int tilingProblem(int n){ // 2xn
 }
 int main(){
 
-    int n = 5;
+    int n = 5 ;
     cout<<tilingProblem(n)<< endl;
     return 0;
 }
