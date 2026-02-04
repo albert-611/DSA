@@ -9,7 +9,7 @@ int tilingProblem(int n){ // 2xn
     }
     
     // // verticle
-    // int ans1 = ; // 2xn-1
+    // int ans1 = tilingProblem(n - 1) ; // 2xn-1
 
     // // horizontal
     // int ans2 = tilingProblem(n - 2);
