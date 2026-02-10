@@ -11,7 +11,7 @@ int partition(vector<int> &arr, int si, int ei){
         if (arr[j] <= pivot)
         {
             i++;
-            swap(arr[i], arr[j]);
+            swap(arr[i], arr[j]) ;
         }       
     }
 
