@@ -1,4 +1,4 @@
-//Addition and Subtraction of Pointers
+//Addition and Subtraction of Constants
 
 #include <iostream>
 using namespace std;
