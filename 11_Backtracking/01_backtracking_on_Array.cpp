@@ -23,6 +23,11 @@ void changeArr(int *arr, int n, int i){
     changeArr(arr,n,i+1);
 
     arr[i] -= 2; //backtrack
+    /*
+    In short: Backtracking happens because the arr[i] -= 2 line is placed after the recursive call. 
+    If you moved that line above the recursive call, 
+    the subtraction would happen during the forward phase instead of the backtracking phase.
+    */
 }
 int main()
 {
