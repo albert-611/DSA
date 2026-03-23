@@ -35,7 +35,7 @@ public:
         
     }
 
-    bool isPallindrome(){
+    bool isPalindrome(){
 
         if (head == NULL || head ->next == NULL) return true;
         
@@ -109,7 +109,7 @@ int main(){
     
     //ll.printLL();
 
-    if (ll.isPallindrome())
+    if (ll.isPalindrome())
     {
         cout << "true\n";
     }else{
